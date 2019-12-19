@@ -1,0 +1,1171 @@
+/*Mobil-first*/
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    width: auto;
+    margin:0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+h2
+{
+    font-size: 17px;
+    text-align: center;
+}
+
+h3
+{
+    text-align: left;
+}
+
+p
+{
+    line-height: 17px;
+    font-size: 17px;
+}
+
+header
+{
+    height: 90px;
+    display: block;
+    width: 100%;
+}
+
+#logo
+{
+    text-align: center;
+}
+
+/*navbar*/
+#menu
+{
+    position: fixed;
+    margin-top: 0px;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.Accueil /*barre bleue fixe accueil*/
+
+{
+    border-top: 3px solid #4EB1D5;
+    padding-top: 6px;
+}
+
+.Accueil :first-child /*couleur noir nav Accueil*/
+{
+    color: black;
+}
+
+nav li
+{
+    display: inline;
+    padding-right: 8px;
+    font-size: 15px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: grey;
+}
+
+nav li:hover
+{
+    border-top: 3px solid #4EB1D5;
+    padding-top: 6px;
+}
+
+#slider
+{
+    position: relative;
+    background: url("images/slider/bg3.jpg")no-repeat; /*image 1127x550*/
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Webagency
+{
+    color: #4EB1D5;
+    font-weight: bold;
+}
+
+#slider h1
+{
+    margin-top: 75px;
+    color: white;
+    width: 300px;
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 30px;
+    line-height: 20px;
+    bottom: -16px;
+}
+
+#slider p
+{
+    color: white;
+    font-size: 11px;
+    margin-left: 30px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+#slider a /*cliquable plus d'infos slider*/
+{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color: #4EB1D5;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px #4EB1D5;
+    margin-left: 30px;
+    top: 5px;
+    border-bottom: 1px solid #468CAD;
+    font-size: 15px;
+    float: left;
+    top:165px;
+    font-weight: bold;
+}
+
+#left-cercle /*cercle sous chevron gauche*/
+{
+    width: 45px;
+    height: 45px;
+    background: black;
+    opacity: 0.2;
+    border-radius: 50px;
+    position: relative;
+    right: 20px;
+}
+
+.fas.fa-chevron-left /*font awesome chevron gauche*/
+{   
+    position: relative;
+    color: white;
+    bottom: 32px;
+    left: 5px;
+    font-size: 14px;
+}
+
+#chevron-left /*position par rapport au slider*/
+{
+    float: left;
+    position: absolute;
+    top:112px;
+}
+
+#chevron-right
+{
+    float: right;
+    position: absolute;
+    top:112px;
+    right: 0px;
+}
+
+#right-cercle
+{
+    width: 45px;
+    height: 45px;
+    background: black;
+    opacity: 0.2;
+    border-radius: 50px;
+    position: relative;
+    left: 20px;
+}
+
+.fas.fa-chevron-right
+{
+    color: white;
+    position: relative;
+    bottom: 32px;
+    left: 32px;
+    font-size: 14px;
+}
+
+#trait-slider
+{
+    position: absolute;
+    height: 4px;
+    width: 70px;
+    background-color: #4EB1D5;
+    top: 246px;
+}
+
+.titre
+{
+    left: 50%;
+}
+
+.block-ligne 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.ligne
+{
+    width: 90px;
+    height: 1px;
+    margin-bottom: 15px;
+    background-color: #EBEBEB;
+}
+
+.fas.fa-circle/*font awesome rond bleu sous-ligne service+ projet*/
+{
+    position: relative;
+    width: 12px;
+    left: 40%;
+    font-size: 15px;
+    color:#4EB1D5;
+    border: 6px solid white;
+    border-radius: 50%;
+    bottom: 12px;
+}
+
+.titre p
+{
+    display: block;
+    text-align: left;
+    width: auto;
+    margin: 20px 5px;
+}
+
+.cont-text
+{
+    padding-left: 2px;
+    padding-right:2px;
+}
+
+#Mac
+{
+    max-width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+
+#Mac img
+{
+    max-width: 100%;
+}
+
+#nos-services /*section*/
+
+{
+    padding: 30px 5px 30px 5px;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#services
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+#list
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: -250px;
+}
+
+#icon1 /*bloc icon position*/
+{
+    width: 75px;
+    position: relative;
+    right: 35px;
+    top: 10px;
+}
+
+#icon2
+{
+    width: 75px;
+    position: relative;
+    right: 35px;
+    top: 110px;
+}
+
+#icon3
+{
+    width: 75px;
+    position: relative;
+    right: 35px;
+    top: 160px;
+}
+
+.block-ligne
+{
+    display: flex;
+    justify-content: center;
+}
+
+.ligne
+{
+    width: 90px;
+    height: 1px;
+    margin-bottom: 15px;
+    background-color: #EBEBEB;
+}
+
+.fa-stack.fa-2x /*cercle icon*/
+
+{
+    left: 35%;
+    margin: 20px 30px 20px 17px;
+    border: 1px solid #777777;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+
+.fas.fa-chart-line, .fas.fa-cubes, .fas.fa-chart-pie /*font awesome icon*/
+
+{
+    color: #4EB1D5;
+    font-size: 30px;
+    top: -5px;
+    left: 2%;
+}
+
+.fas.fa-circle /*cercle blc autour bille bleu*/
+
+{
+    position: relative;
+    width: 22px;
+    font-size: 10px;
+    color:#4EB1D5;
+    border: 6px solid white;
+    border-radius: 50%;
+    bottom: 12px;
+}
+
+.fa-stack.fa-2x .fas.fa-circle /*bille bleu*/
+
+{
+    font-size: 13px;
+    position: absolute;
+    left: 41px;
+    top: 18px;
+    color: #4EB1D5;
+}
+
+#text-nos-projets
+{
+    text-align: left;
+    margin-left: 20px;
+}
+
+#nos-projets /*fond gris*/
+
+{
+    background-color: #F5F5F5;
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+#nav-portfolio /*navbar nos projets*/
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.nav-pills i /*flèche*/
+{
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    bottom: -10px;
+    opacity: 0;
+}
+
+.nav-pills i:before
+{
+    display: inline;
+    color: #468CAD;
+}
+
+.nav-pills
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-pills li
+{
+    display: inline-block;
+    background-color: #e5e5e5;
+    position: relative;
+}
+
+.nav-pills button
+{
+    color: #76797E;
+    padding-left: 15px;
+    border: none;
+    margin: 0;
+    padding: 10px 10px;
+    width: 100%;
+    overflow: visible;
+    background: transparent;
+}
+
+.nav-pills button:focus 
+{
+    outline: none;
+}
+
+.nav-pills li:last-child /*contours arrondis dernier enfant li (portfolio)*/
+{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.nav-pills li:last-child:hover button/*idem en survol*/
+{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.nav-pills li:hover button /*survol li*/
+
+{
+    background-color: #4EB1D5;
+    border-bottom: 4px solid #468CAD;
+    padding-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-pills li:hover i /*apparition flèche en survol*/
+
+{
+    opacity: 1;
+    bottom: -10px;
+}
+
+.nav-pills .active button /*All Works fixé*/
+
+{
+    background-color: #4EB1D5;
+    border-radius: 5px 0px 0px 5px;
+    border-bottom: 4px solid #468CAD;
+    color: white;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.nav-pills .active i /*flèche All Works fixé*/
+
+{
+    opacity: 1;
+}
+
+figure
+{
+    position: relative;
+    height: auto;
+}
+
+figure img
+{
+    width: 100%;
+}
+
+figcaption
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    visibility: hidden;
+    padding-left: 5px;
+}
+
+figcaption h3, figcaption p 
+{
+    text-align: left;
+    margin-left: 5px;
+    padding-right: 5px;
+    font-weight: bolder;
+}
+
+figure:hover figcaption
+{
+    visibility: visible;
+}
+
+.eye /* font awesome oeil*/
+{
+    height: 30px;
+    width: 30px;
+    background-color: #4EB1D5;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: 10px;
+}
+
+.fas.fa-eye
+{
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+
+#Contact
+{
+    padding: 30px 0px 5px 0px;
+    width: 100%;
+}
+
+#formulaire
+{
+    margin-top: 25px;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.8);
+    width: 100%;
+    height: 200px;
+    padding: 15px 5px 15px 5px;
+}
+
+#formulaire p
+{
+    line-height: 25px;
+    color: grey;
+}
+
+#contact-infos p, h3
+{
+    margin-top: 15px;
+}
+
+#titre-contact
+{
+    font-size: 25px;
+}
+
+#adress
+{
+    padding-bottom: 15px;
+}
+
+#tel-pointille
+{
+    text-decoration: underline dotted;
+}
+
+#name
+{
+    width: 200px;
+    font-size: 17px;
+    height: 30px;
+    color: grey;
+    border-radius: 5px;
+    border:1px solid lightgrey;
+}
+
+#email
+{
+    width: 200px;
+    font-size: 17px;
+    height: 30px;
+    color: grey;
+    border-radius: 5px ;
+    padding: 1px;
+    border:1px solid lightgrey;
+}
+
+#subject
+{
+    width: 200px;
+    padding: 1px;
+    font-size: 17px;
+    height: 30px;
+    color: grey;
+    border-radius: 5px;
+    border:1px solid lightgrey;
+}
+
+#message
+{
+    width: 300px;
+    height: auto;
+    font-size: 17px;
+    padding-top: 5px;
+    color: grey;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    padding: 2px;
+    border:1px solid lightgrey;
+    left: 0px;
+}
+
+#submit
+{
+    background-color: #4EB1D5;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 8px 15px 10px 15px;
+    margin-left: 0px;
+    border : 1px #4EB1D5;
+    border-bottom : 4px solid #468CAD;
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+iframe
+{
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    border: 0;
+    z-index: 1;
+    opacity: 0.6;
+}
+
+#google-map
+{
+    width: 100%;
+    height: auto;
+    background-color: rgba( 204, 230, 255, 1);
+    z-index: 2;
+}
+
+@media only screen and (min-width: 375px) /*second mobil*/
+{
+    nav li
+    {
+        padding-right: 17px;
+        font-size: 17px;
+    }
+
+
+    #slider a
+    {
+        top: 150px;
+    }
+
+    #icon1
+    {
+        top: 5px;
+    }
+
+    #icon2
+    {
+        top: 90px;
+    }
+
+    #icon3
+    {
+        top: 140px;
+    }
+
+    .nav-pills button
+    {
+        padding: 10px 13px;
+    }
+}
+
+@media only screen and (min-width: 700px) /*tablettes*/
+
+{
+    nav ul
+    {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    #slider
+    {
+        height: 300px;
+    }
+
+    #slider h1
+    {
+        margin-left: 50px;
+        margin-top: 115px;
+    }
+
+    #slider p
+    {
+        margin-left:50px;
+    }
+
+    #slider a
+    {
+        margin-left: 50px;
+        top: 200px;
+    }
+
+    #chevron-left
+    {
+        top: 130px;
+    }
+
+    #chevron-right
+    {
+        top: 130px;
+    }
+
+    #trait-slider
+    {
+        top: 296px;
+    }
+
+    #icon1
+    {
+        top: 10px;
+    }
+
+    #icon2
+    {
+        top: 40px;
+    }
+
+    #icon3
+    {
+        top: 50px;
+    }
+
+    #list
+    {
+        margin-bottom: 60px;
+    }
+
+    iframe
+    {
+        height: 350px;
+    }
+
+    #contact-infos
+    {
+        margin-top: 330px;
+        margin-left: 5px;
+    }
+
+    #formulaire
+    {
+        margin-top: -256px;
+        padding: 0;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1100px) /*Desktop*/
+
+{
+    
+
+    h2
+    {
+        font-size: 33px;
+    }
+
+    p
+    {
+        line-height: 28px;
+    }
+
+    header
+    {
+        display: block;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 100px;
+        background-color: white;
+        z-index: 5;
+    }
+
+    #menu
+    {
+        width: 100%;
+        text-align: right;
+        top: 20px;
+        left: 0;
+        right: 250px;
+    }
+
+    nav ul
+    {
+        text-align: right;
+        padding-right: 150px;
+        margin-top: 16px;
+    }
+
+    nav li
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    nav li:hover
+    {
+        border-top: 5px solid #4EB1D5;
+        padding-top: 33px;
+    }
+
+    .Accueil /*barre bleue fixe accueil*/
+    
+    {
+        padding-top: 33px;
+    }
+
+    
+    #logo
+    {
+        float: left;
+        margin-left: 150px;
+    }
+
+    #slider
+    {
+        background: url("images/slider/bg1.jpg")no-repeat; /*image 1600x550*/
+        background-size: cover;
+        height: 550px;
+        margin-top: 100px;
+        margin-left: -1px;
+        margin-right: -8px;
+        width: 100%;
+    }
+
+    #left-cercle /*cercle chevron*/
+    
+    {
+        width: 60px;
+        height: 60px;
+        right: 25px;
+    }
+
+    .fas.fa-chevron-left
+    {
+        bottom: 45px;
+        left: 5px;
+        font-size: 30px;
+    }
+
+    #chevron-left
+    {
+        top: 260px;
+    }
+
+    #right-cercle
+    {
+        width: 60px;
+        height: 60px;
+        left: 25px;
+    }
+
+    .fas.fa-chevron-right
+    {
+        bottom: 45px;
+        left: 35px;
+        font-size: 30px;
+    }
+
+    #chevron-right
+    {
+        top: 260px;
+        right: -3px;
+    }
+
+    #slider h1
+    {
+        margin: 0;
+        width: 650px;
+        font-size: 40px;
+        margin-left: 50px;
+        line-height: 39px;
+    }
+
+    #slider p
+    {
+        
+        margin-left: 50px;
+        margin-top: 10px;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    #text-slider
+    {
+        width: 100%;
+        position: absolute;
+        top: 180px;
+        left: 150px;
+    }
+
+    #slider a
+    {
+        padding: 10px 15px 10px 15px;
+        box-shadow: 0px 2px 2px #4EB1D5;
+        margin-left: 50px;
+        font-size: 20px;
+        top: 140px;
+        }
+
+    #trait-slider /*trait bleu bas slider*/
+    {
+        height: 5px;
+        width: 150px;
+        top: 545px;
+    }
+
+    .block-ligne
+    {
+        margin-bottom: 15px;
+    }
+
+    .ligne
+    {
+        width: 140px;
+    }
+
+    .fas.fa-circle /*font awesome rond bleu sous-ligne service+ projet*/
+    {
+        width: 30px;
+        left: 40%;
+        font-size: 18px;
+        bottom: 15px;
+    }
+
+    #services
+    {
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    #list
+    {
+        margin-top: 2px;
+    }
+
+    #Mac
+    {
+        width: 1500px;
+        margin-bottom: 350px}
+
+    .titre p /*paragraphe en dessous nos projets*/
+    {
+        display: block;
+        text-align: center;
+        width: 900px;
+        margin: auto;
+    }
+
+    .UX
+    {
+        width: 100%;
+        left: 1px;
+        line-height: 5px;
+    }
+
+    #icon1
+    {
+        width: 75px;
+        position: relative;
+        right: -82px;
+        top: -160px;
+    }
+
+    #icon2
+    {
+        width: 75px;
+        position: relative;
+        right: -10px;
+        top: -20px;
+    }
+
+    #icon3
+    {
+        width: 75px;
+        position: relative;
+        right: 63px;
+        top: 90px;
+    }
+
+    .fa-stack.fa-2x
+    {
+        margin: 30px 30px 30px 0px;
+        height: 75px;
+        width: 75px;
+    }
+
+    .fas.fa-chart-line, .fas.fa-cubes, .fas.fa-chart-pie /*font awesome icones*/
+    
+    {
+        font-size: 40px;
+        top: 6px;
+        left: 1px;
+    }
+
+    .fa-stack.fa-2x .fas.fa-circle /* font awesome rond bleu service*/
+    
+    {
+        font-size: 15px;
+        left: 61px;
+        top: 25px;
+        bottom: 23px;
+    }
+
+    #nos-projets /*fond gris*/
+    
+    {
+        padding-top: 30px;
+    }
+
+    #nav-portfolio 
+    {
+        margin: 70px;
+    }
+
+    .nav-pills button
+    {
+        padding: 15px 15px 20px 15px;
+        font-size: 15px;
+    }
+
+    .nav-pills li:hover button /* li survol*/
+    {
+        
+        padding: 15px 15px;
+    }
+
+    .nav-pills .active button /*All Works fixé*/
+    {
+        padding: 15px 15px;
+    }
+
+    #portfolio
+    {
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+        margin-left: 70px;
+    }
+
+    figure
+    {
+        height: 233px;
+        margin-left: 8px;
+    }
+
+    figure img
+    {
+        width: 350px;
+    }
+
+    figcaption
+    {
+        width: 350px;
+        line-height: 3px;
+    }
+
+    figcaption h3, figcaption p
+    {
+        margin-top: 20px;
+    }
+
+    .eye /* font awesome oeil*/
+    
+    {
+        top: -16px;
+    }
+
+    .fas.fa-eye
+    {
+        top: 5px;
+        left:4px;
+    }
+
+    #Contact
+    {
+        
+        position: relative;
+    }
+
+    #formulaire
+    {
+        position: absolute;
+        right: 150px;
+        top: 340px;
+        z-index: 3;
+        text-align: left;
+        width: 350px;
+        height: 600px;
+        padding: 20px 10px 20px 15px;
+    }
+
+    #titre-contact
+    {
+        font-size: 30px;
+        line-height: 1px;
+        margin-top: -310px;
+    }
+
+    #adress
+    {
+        padding-bottom: 10px;
+    }
+
+    #name
+    {
+        width: 320px;
+    }
+
+    #email
+    {
+        width: 320px;
+    }
+
+    #subject
+    {
+        width: 320px;
+    }
+
+    #message
+    {
+        width: 320px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    #submit
+    {
+        margin-bottom: 5px;
+    }
+
+    iframe
+    {
+        height: 750px;
+    }
+
+    
+}
